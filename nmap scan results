@@ -1,3 +1,4 @@
+
 Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 21:25 +0530
 Nmap scan report for 192.........
 Host is up (0.00012s latency).
@@ -8,3 +9,31 @@ PORT    STATE SERVICE
 445/tcp open  microsoft-ds
 
 Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+
+nmap for open ports:
+
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 22:02 +0530
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 22:02
+Completed NSE at 22:02, 0.00s elapsed
+Initiating NSE at 22:02
+Completed NSE at 22:02, 0.00s elapsed
+Initiating NSE at 22:02
+Completed NSE at 22:02, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 22:02
+Completed Parallel DNS resolution of 1 host. at 22:02, 0.51s elapsed
+Initiating SYN Stealth Scan at 22:02
+Scanning 192.......... [65535 ports]
+Discovered open port 445/tcp on 192......
+Discovered open port 139/tcp on 192.......
+Discovered open port 135/tcp on 192.11......
+Discovered open port 5040/tcp on 192......
+Discovered open port 49668/tcp on 192......
+Discovered open port 49667/tcp on 192........
+Discovered open port 49666/tcp on 192.......
+Discovered open port 49664/tcp on 192.......
+Discovered open port 49683/tcp on 192..........
+Discovered open port 49665/tcp on 192......
+Completed SYN Stealth Scan at 22:02, 4.89s elapsed (65535 total ports)
+Initiating Service scan at 22:02
